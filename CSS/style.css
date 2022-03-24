@@ -1,0 +1,159 @@
+
+body{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: #1c1c1c;
+
+     max-width: 1000px;
+     margin: auto;
+     box-shadow: 0px 8px 10px;
+     background-color: #fafafa;
+
+}
+
+
+h1,h2,h3,h4{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: #000000;
+}
+
+
+nav{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fafafa;
+    border-color: #000000;
+        
+}
+
+nav > a {
+
+    text-decoration:none;
+    color:#000000;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+nav ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    list-style: none;
+    padding: 50px;
+    width: 80%;
+
+}
+nav ul li{
+
+    text-align:center;
+    width: 100%;
+
+}
+
+nav ul li a {
+
+    display: inline-block;
+    padding: 5px 0;
+    width: 100%;
+    text-decoration: none;
+    color:#000000; 
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/img01.jpeg);
+    
+}
+
+header P{
+    margin-bottom: 2em;
+    align-items: center;
+    padding: 30px;
+
+}
+
+#parte1{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 30px;
+    
+}
+
+#parte1 p{
+    text-align: justify;
+    text-indent: 40px;
+}
+
+
+#parte2{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 30px;
+    
+}
+
+#parte2 p{
+    text-align: justify;
+    text-indent: 40px;
+
+}
+
+#parte3{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 30px;
+}
+
+#parte3 p{
+    text-align: justify;
+    text-indent: 40px;
+}
+
+#cima{
+
+    text-align: center;
+    height:25px;
+    text-decoration-style: double;
+}
+
+#Topo p{
+    text-align: justify;
+    text-indent: 40px;
+
+
+}
+
+.sombra	{
+    
+    background: rgb(179, 176, 176);
+}
+
+.sombra img	{
+    
+    position: relative;
+    top: -3px;
+    left: -5px;
+    border: solid black 2px;
+}
+
+#contatos{
+
+    margin-left: 7px;
+}
+
+footer{
+    margin-left: 7px;
+}
